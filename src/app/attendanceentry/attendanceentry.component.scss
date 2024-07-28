@@ -1,0 +1,151 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+  }
+  
+//   nav ul li {
+//     text-align: right;
+//   }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  
+//   .content {
+//     padding: 20px;
+//   }
+  
+/* General Styles */
+/* General Styles */
+/* General Styles */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5em;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group select,
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.form-group select:focus,
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: blue;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

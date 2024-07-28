@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vacancies,
+.college-media,
+.info-section {
+    margin-bottom: 20px;
+}
+
+.vacancies h2,
+.college-media h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #0056b3;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counselling,
+.alumni-speak {
+    width: 48%;
+}
+
+.counselling h3,
+.alumni-speak h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.counselling p {
+    margin: 5px 0;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
